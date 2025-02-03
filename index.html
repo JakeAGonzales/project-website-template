@@ -2,109 +2,140 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="description"
+        content="TODO: project description">
+  <meta name="keywords" content="TODO">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TODO: title</title>
 
-
-  <title>Hierarchical Decision Framework for Multi-Agent Path Finding</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+        rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://realm.mit.edu">
+            REALM Website
+          </a>
+        </div>
+        <!-- <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://realm.mit.edu">
+            TODO: link to any other pages you want
+          </a>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">TODO: title</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://todo.mit.edu">TODO: author 1 name</a>,</span>
+            <span class="author-block">
+              <a href="https://todo.mit.edu">TODO: author 2 name</a>,</span>
+            <span class="author-block">
+              <a href="https://todo.mit.edu">TODO: author 3 name</a>,</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Massachusetts Institute of Technology</span>
+          </div>
+
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Hierarchical Decision Framework for Multi-Agent Path Finding</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">University of Washington<sup>1</sup></span><br>
-                    <span class="author-block">University of New Mexico<sup>2</sup></span><br>
-                    <span class="author-block"></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/JakeAGonzales/hierarchical-mapf" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/TODO.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/TODO"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
               </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/TODO"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Supplementary Video</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://youtu.be/TODO"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Presentation Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/MIT-REALM/TODO"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
             </div>
+
           </div>
         </div>
       </div>
@@ -112,147 +143,155 @@
   </div>
 </section>
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="hero teaser">
   <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/TODO.png"
+        class="center-image"
+        alt="TODO: alt text"/>
+      <h2 class="subtitle has-text-centered">
+        <br/>
+        TODO: headline caption
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/TODO?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Multi-agent path finding (MAPF) is a well-studied problem in robotics that aims to find collision-free paths for multiple agents in a shared environment. While various solvers exist, they all struggle with scalability as the size of the environment and number of agents increases, primarily due to the problem's combinatorial nature and the lack of consideration for congestion effects caused by agent interactions. To address these limitations, we introduce a novel hierarchical decision-making framework that integrates global flow optimization with local path planning. The framework first decomposes the environment into subregions, allowing it to manage complexity by planning paths for agents within localized subproblems. At the global level, we model the high-level coordination between subregions as a routing game, computing equilibrium flow distributions that guide agents' paths through the environment while balancing congestion between subregions. Additionally, we develop a deep learning model to predict future spatiotemporal congestion effects within the regions. These congestion predictions are utilized in the local planning, where the framework uses MAPF algorithms to compute collision-free paths that avoid high-congestion areas. By integrating global flow optimization with localized, congestion-aware planning, the proposed framework is able to compute high-quality solutions for large-scale MAPF problems. Our experimental results demonstrate improvements over traditional MAPF solvers in terms of success rate and computational time on large-scale problems. 
+            TODO: paragraph 1
+          </p>
+          <p>
+            TODO: paragraph 2
           </p>
         </div>
       </div>
     </div>
+    <!--/ Abstract. -->
   </div>
 </section>
-<!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <div class="has-text-centered">
-            <img src="static/images/chunksgraphincidence.png" alt="MY ALT TEXT" style="margin: 0 auto;"/>
-            <h2 class="subtitle has-text-centered">
-              Dantzig-Wolfe Decomposition.
-            </h2>
-          </div>
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <!-- TODO: Main point 1 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">TODO: main point 1</h2>
+          <img src="./static/images/TODO.png"
+            class="center-image simulation-image"
+            alt="TODO: alt text"/>
         </div>
-        <div class="item">
-          <div class="has-text-centered">
-            <img src="static/images/subregionstructure.png" alt="MY ALT TEXT" style="margin: 0 auto;"/>
-            <h2 class="subtitle has-text-centered">
-              Fully Connected Subregions for the Routing Game Graph.
-            </h2>
-          </div>
+      </div>
+      <!--/ TODO: Main point 1 -->
+
+      <!-- TODO: Main point 2 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">TODO: main point 2</h2>
+          <img src="./static/images/TODO.png"
+            class="center-image simulation-image"
+            alt="TODO: alt text"/>
         </div>
-        <div class="item">
-          <div class="has-text-centered">
-            <img src="static/images/frankwolfe2.png" alt="MY ALT TEXT" style="margin: 0 auto;"/>
-            <h2 class="subtitle has-text-centered">
-              High-Level Planning via Equilibrium Computation using a Franke-Wolfe Update.
-            </h2>
-          </div>
+      </div>
+      <!--/ TODO: Main point 2 -->
+
+      <!-- TODO: Main point 3 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">TODO: main point 3</h2>
+          <img src="./static/images/TODO.png"
+            class="center-image simulation-image"
+            alt="TODO: alt text"/>
+        </div>
+      </div>
+      <!--/ TODO: Main point 3 -->
+
+
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            This work is part of a broader research thread around <emph>TODO</emph>, which allow us to TODO. TODO: e.g. For a survey of the field of learned certificates, see <a rel="survey" href="https://arxiv.org/pdf/2202.11762.pdf">this paper</a>.
+          </p>
+          <p>
+            Other work on TODO from our lab include:
+            <ul>
+              <li><a href="TODO.mit.edu">example 1</a>.</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
+    <!--/ Concurrent Work. -->
   </div>
 </section>
-<!-- End image carousel -->
 
-<!-- First GIF section -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Congestion Prediction</h2>
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <figure class="image">
-            <img src="static/gifs/congestion_fcn_pred.gif" alt="Congestion Prediction">
-            <figcaption class="has-text-centered">Congestion Prediction v. Ground Truth (14x14 Subregion)</figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{TODO,
+author={TODO, TODO and TODO, TODO},
+journal={TODO},
+title={TODO},
+year={TODO},
+volume={TODO},
+number={TODO},
+pages={TODO},
+doi={TODO}}
+}</code></pre>
   </div>
 </section>
-<!-- End first GIF section -->
-
-<!-- Add spacing between sections -->
-<div style="height: 2rem;"></div>
-
-<!-- Second GIF section -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Routing Game</h2>
-      <div class="columns is-centered">
-        <div class="column is-half">
-          <figure class="image">
-            <!-- Your GIF here -->
-            <img src="static/gifs/routing.gif" alt="GIF 2">
-            <figcaption class="has-text-centered">Abstracted Routing Game with 20 Agents</figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End second GIF section -->
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/poster.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
+    <div class="content has-text-centered">
+    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is based that used by <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
           </p>
-
+        </div>
+      </div>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
