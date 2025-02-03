@@ -1,5 +1,5 @@
 ## About
-Project website for the paper Hiearchical Decision Framework for Multi-Agent Path Finding, which is work-in-progress. 
+Template to use for project websites. 
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
